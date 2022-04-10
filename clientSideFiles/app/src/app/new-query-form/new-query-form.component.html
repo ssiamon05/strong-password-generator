@@ -1,0 +1,6 @@
+<!--FIXME: needs fixing ... left off here https://angular.io/start/start-forms -->
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <label name='passwordLength' id="passwordLength" for="passwordLength">Password Length:</label>
+    <input name="passwordLengh" type="number" formControlName="length">
+    <button type="submit"></button>
+</form>
